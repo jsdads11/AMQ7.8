@@ -32,8 +32,6 @@ Building the Docker Image:
   
   # Go to $ARTEMIS_DIST
   $ cd $ARTEMIS_DIST
-  # For Debian
-  $ docker build -f ./docker/Dockerfile-debian -t artemis-debian .
   # For RedHat
   $ docker build -f ./docker/Dockerfile-redhat -t artemis-redhat .
   # For AdoptOpen JDK 11
